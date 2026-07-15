@@ -410,10 +410,10 @@ end)
 
 gui.show_message("Csyon SubMenu", "Csyon Script loaded successfully!")
 
-CSYON = gui.get_tab("**CSYON SubMenu 1.72**					  	**Created By CSYON**")
+CSYON = gui.get_tab("**CSYON SubMenu 1.73**					  	**Created By CSYON**")
 
-CSYON:add_text("		Game Build Version 3751		")
-CSYON:add_text("					v9.3.1				")
+CSYON:add_text("		Game Build Version 3889.0		")
+CSYON:add_text("					v9.4				")
 
 CSYON:add_text("Your level                " .. stats.get_int(MPX() .. "CHAR_RANK_FM"))
 
