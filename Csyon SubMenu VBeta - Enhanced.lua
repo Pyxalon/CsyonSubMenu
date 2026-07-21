@@ -5,7 +5,7 @@ menu.set_menu_name("Csyon Menu")
 local submenu = menu.get_submenu()
 
 -- Main
-local csyon_category = submenu:add_category("Csyon")
+local csyon_category = submenu:add_category("Csyon SubMenu")
 local csyon_group = csyon_category:add_group("Main")
 
 -- Recovery
